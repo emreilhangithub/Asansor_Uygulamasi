@@ -31,29 +31,28 @@ namespace Asansor_Uygulamasi
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.picAsansor = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.lblKat = new System.Windows.Forms.Label();
+            this.btnKat3 = new System.Windows.Forms.Button();
+            this.btnKat4 = new System.Windows.Forms.Button();
+            this.btnKat6 = new System.Windows.Forms.Button();
+            this.lbl6 = new System.Windows.Forms.Label();
+            this.lbl5 = new System.Windows.Forms.Label();
+            this.lbl4 = new System.Windows.Forms.Label();
+            this.lbl3 = new System.Windows.Forms.Label();
+            this.lbl2 = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.lbl0 = new System.Windows.Forms.Label();
+            this.btnKat2 = new System.Windows.Forms.Button();
+            this.btnKat1 = new System.Windows.Forms.Button();
+            this.btnKat0 = new System.Windows.Forms.Button();
+            this.btnKat5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAsansor)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(51, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 435);
-            this.label1.TabIndex = 0;
             // 
             // label2
             // 
@@ -63,81 +62,165 @@ namespace Asansor_Uygulamasi
             this.label2.Size = new System.Drawing.Size(96, 435);
             this.label2.TabIndex = 1;
             // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(51, 34);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(536, 42);
-            this.label3.TabIndex = 2;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(142, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(494, 34);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(355, 30);
+            this.pictureBox1.Size = new System.Drawing.Size(93, 30);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // label4
+            // picAsansor
             // 
-            this.label4.BackColor = System.Drawing.Color.Yellow;
-            this.label4.Location = new System.Drawing.Point(51, 386);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 83);
-            this.label4.TabIndex = 4;
+            this.picAsansor.BackColor = System.Drawing.Color.Brown;
+            this.picAsansor.Location = new System.Drawing.Point(305, 436);
+            this.picAsansor.Name = "picAsansor";
+            this.picAsansor.Size = new System.Drawing.Size(139, 33);
+            this.picAsansor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picAsansor.TabIndex = 8;
+            this.picAsansor.TabStop = false;
             // 
-            // label5
+            // timer1
             // 
-            this.label5.BackColor = System.Drawing.Color.Yellow;
-            this.label5.Location = new System.Drawing.Point(491, 386);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(96, 83);
-            this.label5.TabIndex = 5;
+            this.timer1.Interval = 10;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // label6
+            // lblKat
             // 
-            this.label6.BackColor = System.Drawing.Color.Yellow;
-            this.label6.Location = new System.Drawing.Point(51, 76);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(96, 83);
-            this.label6.TabIndex = 6;
+            this.lblKat.AutoSize = true;
+            this.lblKat.Location = new System.Drawing.Point(689, 235);
+            this.lblKat.Name = "lblKat";
+            this.lblKat.Size = new System.Drawing.Size(13, 13);
+            this.lblKat.TabIndex = 11;
+            this.lblKat.Text = "0";
             // 
-            // label7
+            // btnKat3
             // 
-            this.label7.BackColor = System.Drawing.Color.Yellow;
-            this.label7.Location = new System.Drawing.Point(491, 76);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(96, 83);
-            this.label7.TabIndex = 7;
+            this.btnKat3.Location = new System.Drawing.Point(604, 256);
+            this.btnKat3.Name = "btnKat3";
+            this.btnKat3.Size = new System.Drawing.Size(59, 33);
+            this.btnKat3.TabIndex = 15;
+            this.btnKat3.Text = "3";
+            this.btnKat3.UseVisualStyleBackColor = true;
+            this.btnKat3.Click += new System.EventHandler(this.btnKat3_Click);
             // 
-            // pictureBox2
+            // btnKat4
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Brown;
-            this.pictureBox2.Location = new System.Drawing.Point(254, 319);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(139, 111);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 8;
-            this.pictureBox2.TabStop = false;
+            this.btnKat4.Location = new System.Drawing.Point(604, 196);
+            this.btnKat4.Name = "btnKat4";
+            this.btnKat4.Size = new System.Drawing.Size(59, 33);
+            this.btnKat4.TabIndex = 16;
+            this.btnKat4.Text = "4";
+            this.btnKat4.UseVisualStyleBackColor = true;
+            this.btnKat4.Click += new System.EventHandler(this.btnKat4_Click);
             // 
-            // button1
+            // btnKat6
             // 
-            this.button1.Location = new System.Drawing.Point(599, 26);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(59, 50);
-            this.button1.TabIndex = 9;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnKat6.Location = new System.Drawing.Point(604, 76);
+            this.btnKat6.Name = "btnKat6";
+            this.btnKat6.Size = new System.Drawing.Size(59, 33);
+            this.btnKat6.TabIndex = 18;
+            this.btnKat6.Text = "6";
+            this.btnKat6.UseVisualStyleBackColor = true;
+            this.btnKat6.Click += new System.EventHandler(this.btnKat6_Click);
             // 
-            // button2
+            // lbl6
             // 
-            this.button2.Location = new System.Drawing.Point(664, 26);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(53, 50);
-            this.button2.TabIndex = 10;
-            this.button2.UseVisualStyleBackColor = true;
+            this.lbl6.BackColor = System.Drawing.Color.Yellow;
+            this.lbl6.Location = new System.Drawing.Point(491, 76);
+            this.lbl6.Name = "lbl6";
+            this.lbl6.Size = new System.Drawing.Size(96, 33);
+            this.lbl6.TabIndex = 31;
+            // 
+            // lbl5
+            // 
+            this.lbl5.BackColor = System.Drawing.Color.Yellow;
+            this.lbl5.Location = new System.Drawing.Point(491, 136);
+            this.lbl5.Name = "lbl5";
+            this.lbl5.Size = new System.Drawing.Size(96, 33);
+            this.lbl5.TabIndex = 30;
+            // 
+            // lbl4
+            // 
+            this.lbl4.BackColor = System.Drawing.Color.Yellow;
+            this.lbl4.Location = new System.Drawing.Point(491, 196);
+            this.lbl4.Name = "lbl4";
+            this.lbl4.Size = new System.Drawing.Size(96, 33);
+            this.lbl4.TabIndex = 29;
+            // 
+            // lbl3
+            // 
+            this.lbl3.BackColor = System.Drawing.Color.Yellow;
+            this.lbl3.Location = new System.Drawing.Point(491, 256);
+            this.lbl3.Name = "lbl3";
+            this.lbl3.Size = new System.Drawing.Size(96, 33);
+            this.lbl3.TabIndex = 28;
+            // 
+            // lbl2
+            // 
+            this.lbl2.BackColor = System.Drawing.Color.Yellow;
+            this.lbl2.Location = new System.Drawing.Point(491, 316);
+            this.lbl2.Name = "lbl2";
+            this.lbl2.Size = new System.Drawing.Size(96, 33);
+            this.lbl2.TabIndex = 27;
+            // 
+            // lbl1
+            // 
+            this.lbl1.BackColor = System.Drawing.Color.Yellow;
+            this.lbl1.Location = new System.Drawing.Point(491, 376);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(96, 33);
+            this.lbl1.TabIndex = 26;
+            // 
+            // lbl0
+            // 
+            this.lbl0.BackColor = System.Drawing.Color.Yellow;
+            this.lbl0.Location = new System.Drawing.Point(491, 436);
+            this.lbl0.Name = "lbl0";
+            this.lbl0.Size = new System.Drawing.Size(96, 33);
+            this.lbl0.TabIndex = 25;
+            // 
+            // btnKat2
+            // 
+            this.btnKat2.Location = new System.Drawing.Point(604, 316);
+            this.btnKat2.Name = "btnKat2";
+            this.btnKat2.Size = new System.Drawing.Size(59, 33);
+            this.btnKat2.TabIndex = 32;
+            this.btnKat2.Text = "2";
+            this.btnKat2.UseVisualStyleBackColor = true;
+            this.btnKat2.Click += new System.EventHandler(this.btnKat2_Click);
+            // 
+            // btnKat1
+            // 
+            this.btnKat1.Location = new System.Drawing.Point(604, 376);
+            this.btnKat1.Name = "btnKat1";
+            this.btnKat1.Size = new System.Drawing.Size(59, 33);
+            this.btnKat1.TabIndex = 33;
+            this.btnKat1.Text = "1";
+            this.btnKat1.UseVisualStyleBackColor = true;
+            this.btnKat1.Click += new System.EventHandler(this.btnKat1_Click);
+            // 
+            // btnKat0
+            // 
+            this.btnKat0.Location = new System.Drawing.Point(604, 436);
+            this.btnKat0.Name = "btnKat0";
+            this.btnKat0.Size = new System.Drawing.Size(59, 33);
+            this.btnKat0.TabIndex = 34;
+            this.btnKat0.Text = "0";
+            this.btnKat0.UseVisualStyleBackColor = true;
+            this.btnKat0.Click += new System.EventHandler(this.btnKat0_Click);
+            // 
+            // btnKat5
+            // 
+            this.btnKat5.Location = new System.Drawing.Point(604, 136);
+            this.btnKat5.Name = "btnKat5";
+            this.btnKat5.Size = new System.Drawing.Size(59, 33);
+            this.btnKat5.TabIndex = 35;
+            this.btnKat5.Text = "5";
+            this.btnKat5.UseVisualStyleBackColor = true;
+            this.btnKat5.Click += new System.EventHandler(this.btnKat5_Click_1);
             // 
             // Form1
             // 
@@ -145,39 +228,53 @@ namespace Asansor_Uygulamasi
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(729, 472);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.btnKat5);
+            this.Controls.Add(this.btnKat0);
+            this.Controls.Add(this.btnKat1);
+            this.Controls.Add(this.btnKat2);
+            this.Controls.Add(this.lbl6);
+            this.Controls.Add(this.lbl5);
+            this.Controls.Add(this.lbl4);
+            this.Controls.Add(this.lbl3);
+            this.Controls.Add(this.lbl2);
+            this.Controls.Add(this.lbl1);
+            this.Controls.Add(this.lbl0);
+            this.Controls.Add(this.btnKat6);
+            this.Controls.Add(this.btnKat4);
+            this.Controls.Add(this.btnKat3);
+            this.Controls.Add(this.lblKat);
+            this.Controls.Add(this.picAsansor);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Asansör";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAsansor)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox picAsansor;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label lblKat;
+        private System.Windows.Forms.Button btnKat3;
+        private System.Windows.Forms.Button btnKat4;
+        private System.Windows.Forms.Button btnKat6;
+        private System.Windows.Forms.Label lbl6;
+        private System.Windows.Forms.Label lbl5;
+        private System.Windows.Forms.Label lbl4;
+        private System.Windows.Forms.Label lbl3;
+        private System.Windows.Forms.Label lbl2;
+        private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Label lbl0;
+        private System.Windows.Forms.Button btnKat2;
+        private System.Windows.Forms.Button btnKat1;
+        private System.Windows.Forms.Button btnKat0;
+        private System.Windows.Forms.Button btnKat5;
     }
 }
 
